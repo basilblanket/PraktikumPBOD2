@@ -1,9 +1,13 @@
+/*
+NAMA : BASIL AYMAN HARIADI
+NIM : 24060124140160
+D2
+*/
 
 public class Dosen {
     private String nip;
     private String nama;
     private String prodi;
-
 
     Dosen(String nip, String nama, String prodi) {
         this.nip = nip;

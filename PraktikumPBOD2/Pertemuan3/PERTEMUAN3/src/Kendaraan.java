@@ -1,3 +1,9 @@
+/*
+NAMA : BASIL AYMAN HARIADI
+NIM : 24060124140160
+D2
+*/
+
 public class Kendaraan {
     private String noPlat;
     private String jenis;
