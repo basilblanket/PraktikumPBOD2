@@ -1,22 +1,22 @@
-/*Nama File  : titik.java
- * Deskripsi : berisi atribut dan method dalam class titik
+/*Nama File  : Titik.java
+ * Deskripsi : berisi atribut dan method dalam class Titik
  * Pembuat   : 
  * Tanggal   :
 */
 
-public class titik {
+public class Titik {
     double absis;
     double ordinat;
     static int counterTitik = 0;
 
-    titik(double absis, double ordinat) {
+    Titik(double absis, double ordinat) {
         this.absis = absis;
         this.ordinat = ordinat;
         counterTitik++;
 
     }
 
-    titik() {
+    Titik() {
         this (0,0);
 
     }
