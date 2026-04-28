@@ -13,7 +13,7 @@ class Kucing extends Anabul {
     }
 
     @Override
-    public void bersuara() {
+    public void suara() {
         System.out.println(nama + " bersuara: meong.");
     }
 }

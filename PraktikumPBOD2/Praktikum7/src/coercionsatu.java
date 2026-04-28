@@ -31,7 +31,7 @@ public class coercionsatu {
         String S = X + Y;
         int Z = Integer.parseInt(X) + Integer.parseInt(Y);
 
-        System.out.println("c. Operasi String Integer");
+        System.out.println("c. operasi string integer");
         System.out.println("X = " + X);
         System.out.println("Y = " + Y);
         System.out.println("S = X + Y sebagai String  : " + S);
@@ -44,18 +44,14 @@ public class coercionsatu {
         String R = P + Q;
         double D = Double.parseDouble(P) + Double.parseDouble(Q);
 
-        System.out.println("d. Operasi String Double");
+        System.out.println("d. operasi string double");
         System.out.println("P = " + P);
         System.out.println("Q = " + Q);
         System.out.println("R = P + Q sebagai String  : " + R);
         System.out.println("D = P + Q sebagai Double  : " + D);
         System.out.println();
-
-        // e. Integer A hasil konversi nilai S
         int A = Integer.parseInt(S);
         System.out.println("e. Nilai A hasil konversi S ke Integer: " + A);
-
-        // f. String T hasil konversi nilai A
         String T = Integer.toString(A);
         System.out.println("f. Nilai T hasil konversi A ke String : " + T);
     }

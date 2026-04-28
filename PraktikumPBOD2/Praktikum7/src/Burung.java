@@ -13,7 +13,7 @@ class Burung extends Anabul {
     }
 
     @Override
-    public void bersuara() {
-        System.out.println(nama + " bersuara: cuit");
+    public void suara() {
+        System.out.println(nama + " bersuara cuit");
     }
 }
